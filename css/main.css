@@ -19,8 +19,10 @@
 :root {
     --bg: #2b2b2b;
     --bg-2: #4c4c4c;
-    --bg-3: #1a1a1a;
-    --bg-gradient: linear-gradient(120deg, var(--bg), var(--bg-2));
+    --bg-3: #191919;
+    --bg-gradient: linear-gradient(140deg, var(--bg), var(--bg-2));
+    --bg-gradient-2: linear-gradient(140deg, var(--bg), var(--bg-3));
+    --bg-gradient-3: linear-gradient(140deg, var(--bg-3), var(--bg));
     --shadow: 0 10px 20px -5px rgb(0, 0, 0);
     --text-color: #fff;
     --link-color: #ee0000;
@@ -59,16 +61,33 @@ a {
     width: 100%;
 }
 
+div .section {
+    border-top: 2px solid black;
+    padding-top: 4vh;
+}
+
+div .section:nth-child(even) {
+    background: var(--bg-gradient-2);
+}
+
+div .section:nth-child(odd) {
+    background: var(--bg-gradient-3);
+}
+
+.section:not(:last-child) {
+    padding-bottom: 70vh;
+}
+
+.section:last-child {
+    padding-bottom: 50vh;
+}
+
 .section p {
     padding: 0 2vw;
 }
 
-.section:not(:last-child) {
-    margin-bottom: 100vh;
-}
-
-.section:last-child {
-    margin-bottom: 50vh;
+.section h1 {
+    margin: 0;
 }
 
 .section-links {
