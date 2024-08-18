@@ -1,0 +1,72 @@
+sections:
+  - name: Getting Started
+    id: getting-started
+    body: |
+      To get yourself added to our Jenkins instance, you will need to join our Discord Server and apply with an open source project.<br> 
+      We will review your project and approve it, if it follows basic guidelines. You can read more about them in Documentation.
+    links:
+      - name: Discord
+        img: links/discord.png
+        url: https://discord.gg/AGcFMu6
+      - name: Documentation
+        img: links/docs.png
+        url: "#docs"
+  - name: Documentation
+    id: docs
+    body: |
+      We have extensive documentation on how to get started and use our Jenkins instance. You can use the resources below to get started.
+    links:
+      - name: Documentation
+        img: codemc.png
+        url: https://docs.codemc.io
+      - name: GitHub
+        img: links/github.png
+        url: https://github.com/CodeMC
+      - name: Resources
+        img: links/resources.png
+        url: "#resources"
+  - name: Resources
+    id: resources
+    body: |
+      We offer many resources available to the public. You can find them below, along with some other helpful links.
+    links:
+      - name: Jenkins
+        img: links/jenkins.png
+        url: https://ci.codemc.io
+      - name: Nexus
+        img: links/nexus.png
+        url: https://repo.codemc.io
+      - name: GitHub
+        img: links/github.png
+        url: https://github.com/CodeMC
+      - name: Team
+        img: links/team.png
+        url: "#team"
+  - name: Team
+    id: team
+    body: |
+      CodeMC was originally created by a group of developers who wanted to provide a free Jenkins instance to the public.<br>
+      However, the organization would not be possible without our wonderful volunteers that give their time to help maintain the project.<br>
+      Click on the images below to learn more about our team.
+    show_name: true
+    links:
+      - name: sgdc3
+        title: Owner
+        img: team/sgdc3.jpg
+        url: https://github.com/sgdc3
+        round: true
+      - name: tr7zw
+        title: Administrator
+        img: team/tr7zw.png
+        url: https://tr7zw.dev/
+        round: true
+      - name: Andre_601
+        title: Administrator
+        img: team/andre601.png
+        url: https://andre601.ch/
+        round: true
+      - name: gmitch215
+        title: Moderator
+        img: team/gmitch215.png
+        url: https://gmitch215.xyz
+        round: true

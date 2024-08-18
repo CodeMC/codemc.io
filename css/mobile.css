@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+    .section-links {
+        font-size: small;
+    }
+
+    .section span {
+        display: none;
+    }
+
+    body {
+        text-align: left;
+    }
+
+    h1, h2 {
+        text-align: center;
+    }
+
+    footer p, span {
+        text-align: center;
+    }
+}

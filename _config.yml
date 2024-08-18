@@ -1,0 +1,9 @@
+title: CodeMC
+description: >
+  The static site for CodeMC, a public CI service provider for open-source Minecraft projects.
+
+baseurl: ""
+url: "https://codemc.io"
+github_username: CodeMC
+
+markdown: kramdown
