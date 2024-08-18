@@ -18,14 +18,15 @@
 
 :root {
     --bg: #2b2b2b;
-    --bg-2: #4c4c4c;
-    --bg-3: #191919;
-    --bg-gradient: linear-gradient(140deg, var(--bg), var(--bg-2));
-    --bg-gradient-2: linear-gradient(140deg, var(--bg), var(--bg-3));
-    --bg-gradient-3: linear-gradient(140deg, var(--bg-3), var(--bg));
+    --bg-2: #6c6c6c;
+    --bg-3: #6c6c6c;
+    --bl: #000;
+    --bg-gradient: linear-gradient(to bottom right, var(--bg-2), var(--bl));
+    --bg-gradient-2: linear-gradient(to bottom right, var(--bl), var(--bg-2));
+    --bg-gradient-button: linear-gradient(to bottom right, var(--bg), var(--bg-2));
     --shadow: 0 10px 20px -5px rgb(0, 0, 0);
     --text-color: #fff;
-    --link-color: #ee0000;
+    --link-color: #ff3535;
 }
 
 html {
@@ -62,7 +63,7 @@ a {
 }
 
 div .section {
-    border-top: 2px solid black;
+    border-top: 2px solid var(--bg-2);
     padding-top: 4vh;
 }
 
@@ -71,15 +72,11 @@ div .section:nth-child(even) {
 }
 
 div .section:nth-child(odd) {
-    background: var(--bg-gradient-3);
+    background: var(--bg-gradient);
 }
 
-.section:not(:last-child) {
-    padding-bottom: 70vh;
-}
-
-.section:last-child {
-    padding-bottom: 50vh;
+.section {
+    padding-bottom: 10vh;
 }
 
 .section p {
@@ -104,17 +101,16 @@ div .section:nth-child(odd) {
     height: min-content;
     text-align: center;
 
-    background: var(--bg-gradient);
+    background: var(--bg-gradient-3);
     border-radius: 8px;
     border: 2px solid black;
     box-shadow: var(--shadow);
 
-    transition: transform 1s ease-in-out;
+    transition: transform 0.25s ease-in-out;
 }
 
 .section-links a:hover {
-    transition: transform 1s ease-in-out;
-    transform: scale(1.2);
+    transform: scale(1.175);
 }
 
 .section-icons {
@@ -136,13 +132,13 @@ div .section:nth-child(odd) {
     width: 17vw;
     height: auto;
 
-    background: var(--bg-gradient);
+    background: var(--bg-gradient-button);
     border-radius: 4px;
     padding: 1vw;
     border: 1px solid black;
     box-shadow: var(--shadow);
 
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.25s ease-in-out;
 }
 
 .section-icons img {
@@ -156,7 +152,6 @@ div .section:nth-child(odd) {
 
 .section-icons a:hover {
     transform: scale(1.1);
-    transition: transform 0.5s ease-in-out;
 }
 
 .section-icons div {
@@ -204,8 +199,8 @@ div .section:nth-child(odd) {
 }
 
 footer {
-    background: var(--bg-3);
-    border-top: 2px solid black;
+    background: var(--bg);
+    border-top: 2px solid var(--bg-2);
 }
 
 footer a {
