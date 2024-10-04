@@ -58,18 +58,10 @@ team:
     excerpt: |-
       ### sgdc3 (aka Gabrielle C.)
       
-      Owner
+      Administrator
     btn_label: Visit GitHub
     btn_class: btn--light-outline
     url: https://github.com/sgdc3
-  - image_path: https://github.com/tr7zw.png
-    excerpt: |-
-      ### tr7zw
-      
-      Administrator
-    btn_label: Visit Website
-    btn_class: btn--light-outline
-    url: https://tr7zw.dev
   - image_path: https://github.com/Andre601.png
     excerpt: |-
       ### Andre601
