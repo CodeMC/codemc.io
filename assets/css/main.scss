@@ -1,6 +1,4 @@
----
-
----
+@charset "utf-8";
 
 .archive__item-teaser {
     img {
@@ -8,8 +6,6 @@
         max-height: 10rem;
     }
 }
-
-@charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
