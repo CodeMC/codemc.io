@@ -1,0 +1,7 @@
+main:
+  - title: Getting Started
+    url: '#getting-started'
+  - title: Resources
+    url: '#resources'
+  - title: Meet the Team
+    url: '#meet-the-team'
