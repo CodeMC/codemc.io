@@ -1,4 +1,5 @@
 ---
+title: Welcome to CodeMC
 permalink: /
 layout: splash
 description: >
