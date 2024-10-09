@@ -31,7 +31,8 @@ getting_started:
     url: https://docs.codemc.io
 
 resources:
-  - excerpt: |-
+  - image_path: ./assets/logos/jenkins.png
+    excerpt: |-
       ### Jenkins
       
       Our public Jenkins instance is available for anyone who wants to use it and has successfully applied for it.  
@@ -39,14 +40,16 @@ resources:
     btn_label: Visit CI instance
     btn_class: btn--light-outline
     url: https://ci.codemc.io
-  - excerpt: |-
+  - image_path: ./assets/logos/sonatype_nexus.png
+    excerpt: |-
       ### Nexus
       
       Our public Nexus instance allows you to publish your resources for others to include in their own project.
     btn_label: Browse our Nexus
     btn_class: btn--light-outline
     url: https://repo.codemc.io
-  - excerpt: |-
+  - image_path: ./assets/logos/github.png
+    excerpt: |-
       ### GitHub
       
       Our GitHub Organization contains the source of various open source projects under the CodeMC Umbrella, be it our Discord bot, our Documentation or even this website.

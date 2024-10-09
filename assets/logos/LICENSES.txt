@@ -1,0 +1,22 @@
+This TXT file contains the source location and licenses of the image files located within the same folder as this file itself.
+
+CodeMC does not claim any ownership of the images or any other intellectual properties of the listed companies/groups.
+We do not guarantee the accuracy of the provided licenses/copyright notices. Should one or multiple be incorrect, report them to us on GitHub (https://github.com/CodeMC/codemc.io)
+
+============================== Sonatype Nexus Logo ==============================
+
+Source: https://www.sonatype.com/company/press-kit
+
+Copyright (c) Sonatype Inc. All Rights Reserved.
+
+============================== GitHub Logo ==============================
+
+Source: https://simpleicons.org/?q=github
+
+Copyright (c) GitHub Inc. All Rights Reserved.
+
+============================== Jenkins ==============================
+
+Source: https://simpleicons.org/?q=jenkins
+
+Creative Commons Attribution-Sharealike 3.0 Unported (https://creativecommons.org/licenses/by-sa/3.0/)
