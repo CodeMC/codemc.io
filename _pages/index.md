@@ -13,7 +13,8 @@ header:
   overlay_image: /assets/banner.png
 
 getting_started:
-  - excerpt: |-
+  - image_path: ./assets/logos/discord.png
+    excerpt: |-
       ### Discord
       
       Our Discord Server is the main place to request being added to our Jenkins and Nexus services.  
@@ -21,7 +22,8 @@ getting_started:
     btn_label: Join our Discord
     btn_class: btn--light-outline
     url: https://discord.gg/AGcFMu6
-  - excerpt: |-
+  - image_path: ./assets/logos/book.png
+    excerpt: |-
       ### Documentation
       
       Our Documentation is the best place for obtaining information on how to do specific things.  
