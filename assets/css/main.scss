@@ -1,0 +1,32 @@
+---
+
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+.feature__wrapper {
+    display: flex;
+}
+
+@media only screen and (max-width: 640px) {
+    .feature__wrapper {
+        display: table;
+    }
+}
+
+.feature__item .archive__item-body {
+    text-align: center;
+}
+
+.feature__item .archive__item-teaser {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feature__item .archive__item-body .header-link {
+    display: none;
+}

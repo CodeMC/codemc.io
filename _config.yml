@@ -1,9 +1,41 @@
 title: CodeMC
 description: >
   The static site for CodeMC, a public CI service provider for open-source Minecraft projects.
+logo: "/assets/logo.png"
 
 baseurl: ""
 url: "https://codemc.io"
 github_username: CodeMC
+repository: CodeMC/codemc.github.io
 
 markdown: kramdown
+
+theme: minimal-mistakes-jekyll
+
+search: false
+
+plugins:
+  - jekyll-include-cache
+
+minimal_mistakes_skin: "dark"
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: splash
+
+include: ["_pages"]
+
+footer:
+  links:
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: https://discord.gg/AGcFMu6
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: https://github.com/CodeMC
+
+atom_feed:
+  hide: true

@@ -1,6 +1,6 @@
 # CodeMC Website
 
-This is the repository for the CodeMC website. The website is built using [Jekyll](https://jekyllrb.com/), a static site generator. The website is hosted on GitHub Pages.
+This is the repository for the CodeMC website. The website is built using [Jekyll](https://jekyllrb.com/), a static site generator. The website is hosted on Cloudflare Pages.
 
 ## Setup
 
